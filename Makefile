@@ -18,4 +18,4 @@ main: ${OBJ}
 	${CC} ${CFLAGS} -c $< -o $@ -lm
 
 clean:
-	rm matrix/*.o *.o ${MAIN}
+	rm *.o ${MAIN}
